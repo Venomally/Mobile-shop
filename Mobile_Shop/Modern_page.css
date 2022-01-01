@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Lora&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: rgb(237, 237, 235);
+}
+header{
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.glavni_naslov{
+    font-family: lora;
+    margin-left: 20px;
+}
+header a{
+    position: relative;
+    text-decoration: none;
+    font-family: lora;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-right: 30px;
+    font-size: xx-large;
+    color: #a0a0a0;
+    word-spacing: 50px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+header a::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: #fff;
+}
+header a:hover::after{
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    justify-content: space-around;
+}
+main .text{
+    width: 30vw;
+    font-size: 20px;
+}
+main .text p{
+    letter-spacing: 1px;
+    margin: 20px 0;
+    text-align: justify;
+}
+main .text button{
+    background-color: #333;
+    color:rgb(237, 237, 237);
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+main .text button:hover{
+    background-color: rgb(237, 237, 237); 
+    color: #333;
+    border: 1px solid #333;
+    transition: 0.2s;
+}
+img{
+    display: flex;
+    height: 80vh;
+}
