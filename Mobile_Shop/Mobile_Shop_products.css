@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: rgb(237, 237, 235);
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: #333;
+    color: white;
+    align-items: center;
+    justify-content:space-between ;
+}
+.glavni_naslov{
+    font-family: lora;
+    margin-left: 20px;
+}
+header a{
+    position: relative;
+    text-decoration: none;
+    font-family: Roboto Slab;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-right: 30px;
+    font-size: xx-large;
+    color: #a0a0a0;
+    word-spacing: 50px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+header a::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: #fff;
+}
+header a:hover::after{
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+.products{
+  font-family:Roboto Slab;
+  justify-content: space-evenly;
+  display: flex;
+  text-align: center;
+  margin-top: 200px;
+}
+.products button{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.products button:hover{
+  background-color: white;
+  color: #000;
+}
+.Iphone_Products img{
+  height: 200px;
+  width: 200px;
+}
+.Samsung_Products img{
+  height: 200px;
+  width: 200px;
+}
+.products h1{
+  margin: 15px 0 15px 0;
+}
+.Huawei_Products img{
+  height: 200px;
+  width: 200px;
+}
+ 
