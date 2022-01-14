@@ -57,7 +57,7 @@ header a:hover::after{
   justify-content: space-evenly;
   display: flex;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .products button{
   border: none;
@@ -74,19 +74,32 @@ header a:hover::after{
   background-color: white;
   color: #000;
 }
-.Iphone_Products img{
+.products img{
   height: 200px;
   width: 200px;
 }
-.Samsung_Products img{
-  height: 200px;
-  width: 200px;
+.Samsung_Products{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.products h1{
-  margin: 15px 0 15px 0;
+.Iphone_Products{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.Huawei_Products img{
-  height: 200px;
-  width: 200px;
+.Huawei_Products{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
- 
+.Xiaomi_Products{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.Nokia_Products{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.Sony_Products{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.OPPO_Products{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.Vivo_Products{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
