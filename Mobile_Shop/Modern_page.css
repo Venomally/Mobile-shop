@@ -8,9 +8,8 @@ body{
     background-color: rgb(237, 237, 235);
 }
 header{
-    display: flex;
+    display:block ;
     justify-content: space-evenly;
-    height: 10vh;
     background-color: #333;
     color: white;
     align-items: center;
@@ -53,12 +52,12 @@ header a:hover::after{
 }
 main{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    height: 100%;    align-items: center;
     height: 90vh;
-    justify-content: space-around;
 }
 main .text{
-    width: 30vw;
+    width: 80%;
     font-size: 20px;
 }
 main .text p{
