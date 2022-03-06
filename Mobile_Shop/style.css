@@ -1,3 +1,4 @@
+/* Nav in full screan */
 *{
     padding: 0;
     margin: 0;
@@ -52,7 +53,43 @@
   #check{
     display: none;
   }
-  @media (max-width: 952px){
+main{
+display: inline-flex;
+align-items: center;
+justify-content: center
+}
+main .text{
+width: 50%;
+font-size: 20px;
+}
+main .text p{
+letter-spacing: 1px;
+margin: 20px 0;
+text-align: justify;
+}
+main .text button{
+  background-color: #333;
+  color:rgb(237, 237, 237);
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+ }
+main .text button:hover{
+    background-color: rgb(237, 237, 237); 
+    color: #333;
+    border: 1px solid #333;
+    transition: 0.2s;
+}
+img{
+  display: flex;
+  height: 70vh;
+  width: 100%;
+}
+/* nav in media querry */
+@media (max-width: 952px){
     label.logo{
       font-size: 30px;
       padding-left: 50px;
@@ -60,10 +97,13 @@
     nav ul li a{
       font-size: 16px;
     }
-  }
-  @media (max-width: 858px){
+}
+@media (max-width: 858px){
     .checkbtn{
       display: block;
+    }
+    header{
+      margin-bottom: 10%;
     }
     ul{
       position: fixed;
@@ -85,7 +125,7 @@
     }
     a:hover,a.active{
       background: none;
-      color: #0082e6;
+      color: white;
     }
     #check:checked ~ ul{
       left: 0;
@@ -93,74 +133,46 @@
     main{
       display: flex;
       flex-direction: column;
-      height: 100%;    align-items: center;
+      height: 100%;    
+      align-items: center;
       height: 90vh;
-  }
-  main .text{
-      width: 80%;
-      font-size: 20px;
-  }
-  main .text p{
-      letter-spacing: 1px;
-      margin: 20px 0;
-      text-align: justify;
-  }
-  main .text button{
-      background-color: #333;
-      color:rgb(237, 237, 237);
-      width: 200px;
-      height: 50px;
-      font-size: 18px;
-      outline: none;
-      border: none;
-      cursor: pointer;
-  }
+    } 
+    /* body of the page */ 
+ main{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center
+ }
+ main .text{
+  width: 80%;
+  font-size: 20px;
+  text-align: center;
+ }
+ main .text p{
+  letter-spacing: 1px;
+  margin: 20px 0;
+  text-align: justify;
+ }
+ main .text button{
+  background-color: #333;
+  color:rgb(237, 237, 237);
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+ }
   main .text button:hover{
-      background-color: rgb(237, 237, 237); 
-      color: #333;
-      border: 1px solid #333;
-      transition: 0.2s;
+  background-color: rgb(237, 237, 237); 
+  color: #333;
+  border: 1px solid #333;
+  transition: 0.2s;
   }
   img{
-      display: flex;
-      height: 70vh;
-      width: 100%;
+  display: flex;
+  height: 100%;
+  width: 100%;
   }
-  }
-main{
-    display: flex;
-    flex-direction: initial;
-    height: 100%;    
-    align-items: center;
-    height: 90vh;
-}
-main .text{
-    width: 80%;
-    font-size: 20px;
-}
-main .text p{
-    letter-spacing: 1px;
-    margin: 20px 0;
-    text-align: justify;
-}
-main .text button{
-    background-color: #333;
-    color:rgb(237, 237, 237);
-    width: 200px;
-    height: 50px;
-    font-size: 18px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-}
-main .text button:hover{
-    background-color: rgb(237, 237, 237); 
-    color: #333;
-    border: 1px solid #333;
-    transition: 0.2s;
-}
-img{
-    display: flex;
-    height: 70vh;
-    width: 100%;
+
 }
