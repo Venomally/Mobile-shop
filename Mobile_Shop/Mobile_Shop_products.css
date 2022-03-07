@@ -58,6 +58,7 @@ a.active,a:hover{
   flex-wrap: wrap;
   text-align: center;
   margin-top: 100px;
+  
 }
 /* Product in desktop size */
 .products button{
@@ -143,59 +144,6 @@ a.active,a:hover{
   #check:checked ~ ul{
     left: 0;
   }
-  .All_Products{
-    
-  }
-  .products{
-    font-family:Roboto Slab;
-    display: flex;
-    text-align: center;
-    margin-top: 100px;
-    align-content: center;
-    
-  }
-  .products button{
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  .products button:hover{
-    background-color: white;
-    color: #000;
-  }
-  .products img{
-    height: 200px;
-    width: 200px;
-  }
-  /* .Samsung_Products{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    
-  }
-  .Iphone_Products{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  .Huawei_Products{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  .Xiaomi_Products{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  .Nokia_Products{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  .Sony_Products{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  .OPPO_Products{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  .Vivo_Products{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  } */
+  
+  
 }
