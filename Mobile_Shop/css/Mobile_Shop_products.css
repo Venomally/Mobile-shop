@@ -60,7 +60,14 @@ a.active,a:hover{
   text-align: center;
   margin-top: 100px;
   margin-left: 250px;
-  
+}
+.empti{
+  height: 0;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 40px;
 }
 .products{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -100,7 +107,7 @@ a.active,a:hover{
 }
 @media (max-width: 800px){
   .checkbtn{
-    display: block;
+    display: block !important;
   }
   ul{
     position: fixed;
