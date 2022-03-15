@@ -96,6 +96,8 @@ a.active,a:hover{
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .products button:hover{
   background-color: white;
