@@ -85,41 +85,6 @@ img{
       height: 90vh;
     } 
     /* body of the page */ 
- main{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center
- }
- main .text{
-  width: 80%;
-  font-size: 20px;
-  text-align: center;
- }
- main .text p{
-  letter-spacing: 1px;
-  margin: 20px 0;
-  text-align: justify;
- }
- main .text button{
-  background-color: #333;
-  color:rgb(237, 237, 237);
-  width: 200px;
-  height: 50px;
-  font-size: 18px;
-  outline: none;
-  border: none;
-  cursor: pointer;
- }
-  main .text button:hover{
-  background-color: rgb(237, 237, 237); 
-  color: #333;
-  border: 1px solid #333;
-  transition: 0.2s;
-  }
-  img{
-  display: flex;
-  height: 100%;
-  width: 100%;
-  }
+ 
 
 }
